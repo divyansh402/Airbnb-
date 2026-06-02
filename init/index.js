@@ -21,8 +21,8 @@ const initDB = async () => {
   initData.data = initData.data.map((obj) => ({...obj,owner:"69c600678c1c55b9d185580a"}));
   await Listing.insertMany(initData.data); // now initData.data matches your import
   console.log("data was initialized");
-  // console.log(initData.data);        // ✅ prints all data to terminal
-  // mongoose.connection.close();       // ✅ closes connection after seeding
+  // console.log(initData.data);        
+  // mongoose.connection.close();       
 };
 
 initDB();
