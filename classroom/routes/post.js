@@ -19,7 +19,7 @@ router.post("/", (req, res) => {
     res.send("POST for posts");
 });
 
-//DELETE 
+//DELETE //used to delete
 router.delete("/:id", (req, res) => {
     res.send("delete for post id");
 });
