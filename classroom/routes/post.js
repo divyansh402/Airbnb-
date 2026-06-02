@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //Index 
-//using to start server
+
 router.get("/", (req, res) => {
     res.send("GET for users");
 })
